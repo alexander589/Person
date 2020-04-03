@@ -16,7 +16,7 @@ public class Person {
         account = new Account(password);
     }
     public void displayPerson(){
-        System.out.println("tduv.Person Name:" + name + " " +"Password:" + account.password);
+        System.out.println("Person Name:" + name + " " +"Password:" + account.password);
     }
 
     public class Account {
